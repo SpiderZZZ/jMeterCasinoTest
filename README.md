@@ -13,7 +13,7 @@ mvn clean verify
 - password (пароль пользователя для авторизации в basic auth): (пустой)
 - CSVFileWithISO4217 (CSV файл с кодами денежных единиц по стандарту ISO4217): codes-all_csv_for_test.csv (файл содержит только единицу RUB, т.к. на тестируемом экземпляре приложения доступна только она, см. http://joxi.ru/VrweoEqu7dyqw2. Кроме того в проекте ещё лежит 2 файла с денежными единицами: codes-all_csv_for_test2.csv - 5 различных единиц, включая RUB и codes-all_csv_for_test.csv - полный набор денежных единиц по состоянию на 22.11.2019)
 
-Если нужно параметриризовать тесты то нужно запустить команду и параметризовать параметры выше, например:
+Если нужно изменить значения по умолчанию (параметризовать параметры выше) то нужно выполнить команду mvn clean verify с соответствущими изменяемыми параметрами (название параметра должно начинаться с D), например:
 
 mvn clean verify -DnumberOfThreads=5 -DserverName=test-api.d6.dev.devcaz.com -DserverPort=80 -Dusernamebasic=front_2d6b0a8391742f5d789d7d915755e09e -Duserpasswordbasic= -DCSVISO4217File=codes-all_csv_for_test2.csv
 

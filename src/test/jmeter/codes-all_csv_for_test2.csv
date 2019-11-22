@@ -1,0 +1,7 @@
+Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate
+RUSSIAN FEDERATION (THE),Russian Ruble,RUB,643,2
+AZERBAIJAN,Azerbaijanian Manat,AZN,944,2,
+BAHAMAS (THE),Bahamian Dollar,BSD,44,2,
+BAHRAIN,Bahraini Dinar,BHD,48,3,
+BANGLADESH,Taka,BDT,50,2,
+BARBADOS,Barbados Dollar,BBD,52,2

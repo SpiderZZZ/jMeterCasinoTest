@@ -1,6 +1,6 @@
 # jMeterCasinoTest
 
-Запускаем нагрузочное тесты (предаврительно должен быть установлен maven последней версии http://maven.apache.org/download.cgi, добавлена перменная окружения M2_HOME и путь до mvn.cmd добавлен в PATH):
+Запускаем нагрузочные тесты (предаврительно должен быть установлен maven последней версии http://maven.apache.org/download.cgi, добавлена перменная окружения M2_HOME и путь до mvn.cmd добавлен в PATH):
 
 - mvn clean verify 
 

@@ -17,6 +17,6 @@
 
 Если нужно изменить значения по умолчанию (параметризовать значения выше) то нужно выполнить команду mvn clean verify с соответствущими изменяемыми параметрами (название параметра должно начинаться с D), например:
 
-mvn clean verify -DnumberOfThreads=5 -DserverName=test-api.d6.dev.devcaz.com -DserverPort=80 -Dusernamebasic=front_2d6b0a8391742f5d789d7d915755e09e -Duserpasswordbasic= -DCSVISO4217File=codes-all_csv_for_test2.csv
+- mvn clean verify -DnumberOfThreads=5 -DserverName=test-api.d6.dev.devcaz.com -DserverPort=80 -Dusernamebasic=front_2d6b0a8391742f5d789d7d915755e09e -Duserpasswordbasic= -DCSVISO4217File=codes-all_csv_for_test2.csv
 
 Отчет в формате CSV расположен в jMeterCasinoTest\target\jmeter\results\test.csv. Кроме того доступен более полный визуальный отчет в jMeterCasinoTest\target\jmeter\reports\test\index.html 
